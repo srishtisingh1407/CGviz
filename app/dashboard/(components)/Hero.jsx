@@ -6,7 +6,6 @@ function Hero() {
   return (
     <div className="relative rounded-t-[50px] py-20 bg-gradient-to-r from-[#aed99a] to-[#C5D3E8] border-[#A6AEBF]">
       <div className="max-w-screen-xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between px-6 uppercase">
-        {/* Text Section */}
         <div className="text-start lg:w-1/2">
           <h1 className="text-5xl sm:text-7xl lg:text-8xl font-bold text-[#5573b2] mb-8">
             Professional 3D Rendering <br />
@@ -26,8 +25,7 @@ function Hero() {
           </div>
         </div>
 
-        {/* Spline Component Section */}
-        <div className="lg:w-1/2 mt-12 lg:mt-0">
+        <div className="lg:w-1/2 mt-10 mx-28 lg:mt-0">
           <SplineComponent />
         </div>
       </div>

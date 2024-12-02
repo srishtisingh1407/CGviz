@@ -15,7 +15,7 @@ function Service() {
         </div>
 
         <div className="bg-[#c8e4bc] flex flex-col sm:flex-row justify-center items-center gap-8 p-8 sm:p-10 transition-opacity">
-          {/* Card 1 */}
+    
           <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-72 sm:w-80 lg:w-96 h-96">
             <FaBuilding className="text-5xl sm:text-6xl mb-4 text-[#432E54]" />
             <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-center text-[#432E54]">
@@ -26,7 +26,7 @@ function Service() {
             </p>
           </div>
 
-          {/* Card 2 */}
+       
           <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-72 sm:w-80 lg:w-96 h-96">
             <FaCouch className="text-5xl sm:text-6xl mb-4 text-[#432E54]" />
             <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-center text-[#432E54]">
@@ -37,7 +37,7 @@ function Service() {
             </p>
           </div>
 
-          {/* Card 3 */}
+       
           <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-72 sm:w-80 lg:w-96 h-96">
             <FaCube className="text-5xl sm:text-6xl mb-4 text-[#432E54]" />
             <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-center text-[#432E54]">
@@ -48,7 +48,7 @@ function Service() {
             </p>
           </div>
 
-          {/* Card 4 */}
+      
           <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-72 sm:w-80 lg:w-96 h-96">
             <FaCity className="text-5xl sm:text-6xl mb-4 text-[#432E54]" />
             <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-center text-[#432E54]">

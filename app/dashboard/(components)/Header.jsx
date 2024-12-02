@@ -26,7 +26,10 @@ function Header() {
           <ul className="flex justify-center space-x-8 font-semibold">
             {menuLinks.map((link) => (
               <li key={link.name}>
-                <Link href={link.href} className="hover:text-[#5e864b] hover:underline-offset-1">
+                <Link
+                  href={link.href}
+                  className="hover:text-[#5e864b] hover:underline-offset-1"
+                >
                   {link.name}
                 </Link>
               </li>
@@ -43,7 +46,6 @@ function Header() {
           </Link>
         </div>
 
-        {/* Hamburger Icon (visible on small screens only) */}
         <div className="md:hidden flex items-center">
           <button className="text-[#6c8acc] focus:outline-none">
             <svg

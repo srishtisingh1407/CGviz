@@ -12,17 +12,18 @@ function ContactUs() {
       </div>
 
       <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto p-6 bg-[#d7f8c9] rounded-xl shadow-md">
-        {/* Spline Component */}
         <div className="w-full lg:w-1/2 h-full max-w-full overflow-hidden rounded-l-xl">
           <SplineComponent />
         </div>
 
-        {/* Form Section */}
         <div className="w-full lg:w-1/2 p-6 rounded-r-xl">
           <form>
             <div className="flex flex-col gap-6">
               <div className="flex flex-col">
-                <label htmlFor="name" className="text-lg font-medium text-[#432E54]">
+                <label
+                  htmlFor="name"
+                  className="text-lg font-medium text-[#432E54]"
+                >
                   Full Name
                 </label>
                 <input
@@ -34,7 +35,10 @@ function ContactUs() {
               </div>
 
               <div className="flex flex-col">
-                <label htmlFor="email" className="text-lg font-medium text-[#432E54]">
+                <label
+                  htmlFor="email"
+                  className="text-lg font-medium text-[#432E54]"
+                >
                   Email Address
                 </label>
                 <input
@@ -46,7 +50,10 @@ function ContactUs() {
               </div>
 
               <div className="flex flex-col">
-                <label htmlFor="message" className="text-lg font-medium text-[#432E54]">
+                <label
+                  htmlFor="message"
+                  className="text-lg font-medium text-[#432E54]"
+                >
                   Message
                 </label>
                 <textarea
